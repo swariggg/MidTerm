@@ -20,7 +20,7 @@ acortador-enlaces/
 │   └── config.js          # URL de la API (IP de EC2)
 └── deploy/
     └── acortador.service  # Servicio systemd para EC2
-
+´´´
 DynamoDB
 - Nombre: `short_links`
 - Clave de partición: `short_code` (String)
