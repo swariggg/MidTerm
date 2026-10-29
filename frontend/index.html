@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parcialwuiwui</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Acortador</h1>
+
+    <form id="form">
+      <input type="text" id="url" placeholder="https://www.ejemplo.com/articulo" required>
+      <button type="submit">Acortar</button>
+    </form>
+
+    <p id="error" class="error"></p>
+
+    <div id="result" class="result hidden">
+      <p>Tu enlace corto:</p>
+      <a id="short-url" href="#" target="_blank"></a>
+      <button id="copy">Copiar</button>
+    </div>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
